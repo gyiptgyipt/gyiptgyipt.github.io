@@ -15,15 +15,14 @@ const AboutDetails = () => {
             Architect of Enchantment
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            My journey in web development is powered by an array of mystical
-            tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
-            precision, crafting seamless portals (websites) that connect realms
-            (users) across the digital universe. The ancient arts of the
-            Jamstack empower me to create fast, secure, and dynamic experiences,
-            while my design skills ensure every creation is not only functional
-            but visually captivating. Join me as I continue to explore new
-            spells and technologies to shape the future of the web.
+            Robotics engineer with industry experience at ROM Dynamics
+            Robotics, where I work on building and improving robotic systems.
+            Skilled in designing mechanical and control systems, programming
+            with Python and C++, and working with tools like ROS2, Artificial
+            Intelligence and embedded hardware. I enjoy solving real-world
+            problems through robotics and want to deepen my knowledge
+            through university studies. Interested in intelligent systems,
+            automation, and human-robot interaction.
           </p>
         </ItemLayout>
 
