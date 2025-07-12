@@ -2,15 +2,12 @@
   "name": "nextjs-creative-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/gyiptgyipt/gyiptgyipt.github.io",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-
-    "export": "next export",
-    "deploy": "npm run build && npm run export"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "deploy": "DEPLOY_TARGET=gh-pages next build && gh-pages -d out"
+}.
   "dependencies": {
     "@emailjs/browser": "^4.2.0",
     "@react-three/drei": "^9.99.5",
@@ -30,9 +27,8 @@
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
     "eslint-config-next": "14.1.1",
+    "gh-pages": "^6.3.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0"
   }
 }
-
-
