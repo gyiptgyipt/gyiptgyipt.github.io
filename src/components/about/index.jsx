@@ -30,7 +30,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            50+ <sub className="font-semibold text-base">projects</sub>
           </p>
         </ItemLayout>
 
@@ -49,7 +49,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            alt="Zyme"
             loading="lazy"
           />
         </ItemLayout>
@@ -58,7 +58,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
+            alt="Zyme"
             loading="lazy"
           />
         </ItemLayout>
@@ -66,8 +66,8 @@ const AboutDetails = () => {
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=appwrite,aws,babel,bootstrap,cloudflare,css,d3,docker,figma,firebase,gatsby,git,github,graphql,html,ipfs,js,jquery,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn`}
-            alt="CodeBucks"
+            src={`https://skillicons.dev/icons?i=ros,py,c,cpp,cmake,qt,go,lua,bash,linux,docker,git,github,vscode,arduino,raspberrypi,opencv,matlab,react,tensorflow,ubuntu,debian,threejs,discord,anaconda`}
+            alt="Zyme"
             loading="lazy"
           />
         </ItemLayout>
@@ -76,7 +76,7 @@ const AboutDetails = () => {
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
-            alt="CodeBucks"
+            alt="Zyme"
             loading="lazy"
           />
         </ItemLayout>
@@ -90,7 +90,7 @@ const AboutDetails = () => {
             <img
               className="w-full h-auto"
               src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/pin/?username=codebucks27&repo=Nextjs-contentlayer-blog&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false&description_lines_count=2`}
-              alt="CodeBucks"
+              alt="Zyme"
               loading="lazy"
             />
           </Link>

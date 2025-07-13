@@ -20,15 +20,12 @@ export default function Contact() {
       <article className="relative w-full flex flex-col items-center justify-center py-8 sm:py-0 space-y-8">
         <div className="flex flex-col items-center justify-center space-y-6 w-full sm:w-3/4">
           <h1 className="text-accent font-semibold text-center text-4xl capitalize">
-            summon the wizard
+            Summon the Yantarar Wizard with the force
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Step into the circle of enchantment and weave your words into the
-            fabric of the cosmos. Whether you seek to conjure collaborations,
-            unlock mysteries, or simply share tales of adventure, your messages
-            are treasured scrolls within this realm. Use the form below to send
-            your missives through the ethereal network, and await the whisper of
-            magic in response.
+            Enter the orbit of wonder and transmit your thoughts across the stars. 
+            Whether you&apos;re initiating interstellar alliances, decoding galactic enigmas, or recounting voyages through the void, your messages are stardust etched in time. 
+            Use the console below to beam your dispatch into the cosmic network and listen for the echoes of the universe to answer.
           </p>
         </div>
         <Form />

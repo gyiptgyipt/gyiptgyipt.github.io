@@ -54,8 +54,8 @@ import React, { useRef } from 'react'
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber";
 
-export function HatModel(props) {
-  const { nodes, materials } = useGLTF('/models/hat-transformed.glb')
+export default function HatModel(props) {
+  const { nodes, materials } = useGLTF('/models/robot_dog-transformed.glb')
   
   const modelRef = useRef();
 
@@ -67,9 +67,9 @@ export function HatModel(props) {
       {...props}
       dispose={null}
       ref={modelRef}
-      scale={[1.8, 1.8, 1.8]}
+      scale={[0.02, 0.02, 0.02]}
       rotation={[0.4, -1, 0]}
-      position={[0, 0, 0]}
+      position={[0, 2, 0]}
     >
       <mesh
         name="Object_2"
@@ -102,5 +102,5 @@ export function HatModel(props) {
   )
 }
 
-useGLTF.preload('/models/hat-transformed.glb')
+useGLTF.preload('/models/robot_dog-transformed.glb')
 

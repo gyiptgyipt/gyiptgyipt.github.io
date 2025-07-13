@@ -88,9 +88,10 @@ import React, { useRef } from "react";
 import { useGLTF } from '@react-three/drei'
 import { useFrame } from "@react-three/fiber";
 
-export function Staff(props) {
-  const { nodes, materials } = useGLTF('/models/staff-transformed.glb')
+export default function Staff(props) {
+  const { nodes, materials } = useGLTF('/models/uav-transformed.glb')
 
+  const modelRef = useRef();
   useFrame(() => {
     modelRef.current.rotation.y += 0.007;
   });
@@ -99,7 +100,8 @@ export function Staff(props) {
       {...props}
       dispose={null}
       scale={[3, 3, 3]}
-      position={[0, -2, 0]}
+      rotation={[0.4, -1, 0]}
+      position={[1.0, 2, 0]}
       ref={modelRef}
     >
       <mesh
@@ -114,5 +116,5 @@ export function Staff(props) {
   )
 }
 
-useGLTF.preload('/models/staff-transformed.glb')
+useGLTF.preload('/models/uav-transformed.glb')
 

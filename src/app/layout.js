@@ -9,15 +9,19 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
+
 export const metadata = {
   title: {
     template:
-      "Htet Wai Yan's Portfolio",
+      "Zyme's Portfolio",
     default:
-      "Htet Wai Yan's Portfolio",
+      "Zyme's Portfolio",
   },
   description:
     "A portfolio showcasing the projects and skills of Htet Wai Yan, a robotics enthusiast and developer.",
+    icons: {
+    icon: "/zyme-icon.png",
+  },
 };
 
 export default function RootLayout({ children }) {
