@@ -69,7 +69,7 @@ export const projectsData = [
   {
     id: 8,
     name: "ROM_DYNAMICS Mission Controller APP",
-    description: "Tech news aggregator",
+    description: "QT based Mission Controller App for ROS2",
     date: "2024-9-5",
     demoLink: "https://romdynamics.com/",
   },
@@ -82,8 +82,8 @@ export const projectsData = [
   },
   {
     id: 10,
-    name: "F110(F1Tenth Tutorials",
-    description: "Meditation and mindfulness app",
+    name: "F110(F1Tenth Tutorials)",
+    description: "F1tenth GYM",
     // date: "2022-02-14",
     demoLink: "https://github.com/gyiptgyipt/f1tenth",
   },
