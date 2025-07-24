@@ -101,9 +101,9 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "LinkedIn",
-    link: "www.linkedin.com/in/htet-wai-yan-zyme",
-    icon: "linkedin",
+    label: "Youtube",
+    link: "https://www.youtube.com/@Zymeinroboticsjourney",
+    icon: "youtube",
     newTab: true,
   },
   {
