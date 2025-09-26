@@ -77,15 +77,22 @@ export const projectsData = [
     id: 9,
     name: "PX4_SITL UAVs show",
     description: "On going project (uavs show)",
-    // date: "2022-03-22",
+    date: "2025",
     demoLink: "/",
   },
   {
     id: 10,
     name: "F110(F1Tenth Tutorials)",
     description: "F1tenth GYM",
-    // date: "2022-02-14",
+    date: "2024-02-14",
     demoLink: "https://github.com/gyiptgyipt/f1tenth",
+  },
+  {
+    id: 11,
+    name: "OLD portfolio",
+    description: "my old portfolio website",
+    // date: "2022-02-14",
+    // demoLink: "https://github.com/gyiptgyipt/f1tenth",
   },
 ];
 
