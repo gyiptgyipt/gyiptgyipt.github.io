@@ -17,12 +17,13 @@ Websites:
 */
 
 export const projectsData = [
+  
   {
     id: 1,
     name: "BEE BOT (ROM2109)",
     description: "Differential Drive Robot for Educational Prototype",
     date: "2023-06-15",
-    demoLink: "https://github.com/gyiptgyipt/rom2109",
+    demoLink: "https://github.com/openroboticsasean/rom2109",
   },
   {
     id: 2,
@@ -78,7 +79,7 @@ export const projectsData = [
     name: "PX4_SITL UAVs show",
     description: "On going project (uavs show)",
     date: "2025",
-    demoLink: "/",
+    demoLink: "https://github.com/gyiptgyipt/multi_uavs_swarm",
   },
   {
     id: 10,
@@ -89,11 +90,18 @@ export const projectsData = [
   },
   {
     id: 11,
-    name: "OLD portfolio",
-    description: "my old portfolio website",
-    date: "2022-02-14",
-    demoLink: "https://github.com/gyiptgyipt/f1tenth",
+    name: "Black Donut Simulation",
+    description: "Custom robot simulation in gazebo",
+    date: "2023-08-27",
+    demoLink: "https://github.com/stallonezwel/black_donut_simulation",
   },
+  {
+    id: 12,
+    name: "Speaker in webinar",
+    description: "Public speaking with topic name 'AI across Robotics' in UNI Learn AI Webinar",
+    date: "2025-09-12",
+    demoLink: "https://www.facebook.com/photo?fbid=122163284732478231&set=pcb.122163284804478231",
+  }
 ];
 
 export const BtnList = [
