@@ -91,8 +91,8 @@ export const projectsData = [
     id: 11,
     name: "OLD portfolio",
     description: "my old portfolio website",
-    // date: "2022-02-14",
-    // demoLink: "https://github.com/gyiptgyipt/f1tenth",
+    date: "2022-02-14",
+    demoLink: "https://github.com/gyiptgyipt/f1tenth",
   },
 ];
 
