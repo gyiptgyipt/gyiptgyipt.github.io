@@ -9,7 +9,7 @@ Websites:
 
 :root {
   --background: 27 27 27;
-  --foreground: 225 225 225;
+  --foreground: 225 225 225;zyme
   --muted: 115 115 115;
   --accent: 254 254 91; #FEFE5B
 }
@@ -24,6 +24,7 @@ export const projectsData = [
     description: "Differential Drive Robot for Educational Prototype",
     date: "2023-06-15",
     demoLink: "https://github.com/openroboticsasean/rom2109",
+    image: "/project_images/beebot.jpeg",
   },
   {
     id: 2,
@@ -31,6 +32,7 @@ export const projectsData = [
     description: "Robot Localization using Differential Drive for outdoor navigation",
     date: "2023-06-22",
     demoLink: "https://github.com/gyiptgyipt/loc_diff",
+    image: "/project_images/gps_waypoints.png",
   },
   {
     id: 3,

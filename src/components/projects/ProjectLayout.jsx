@@ -7,7 +7,7 @@ const item = {
 };
 
 const ProjectLink = motion(Link);
-const ProjectLayout = ({ name, description, date, demoLink }) => {
+const ProjectLayout = ({ name, description, date, demoLink, image }) => {
   return (
     <ProjectLink
       variants={item}
@@ -15,6 +15,15 @@ const ProjectLayout = ({ name, description, date, demoLink }) => {
       target={"_blank"}
       className=" text-sm md:text-base flex  items-center justify-between w-full relative rounded-lg overflow-hidden p-4 md:p-6 custom-bg"
     >
+      {image && (
+        <div className="flex-shrink-0 mr-4 hidden sm:block">
+          <img
+            src={image}
+            alt={`${name} thumbnail`}
+            className="w-14 h-14 md:w-16 md:h-16 rounded-md object-cover"
+          />
+        </div>
+      )}
       <div className="flex items-center justify-center space-x-2">
         <h2 className="text-foreground">{name}</h2>
         <p className="text-muted hidden sm:inline-block">{description}</p>
