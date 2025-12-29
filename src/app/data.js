@@ -125,7 +125,7 @@ export const projectsData = [
     date: "2025-09-12",
     demoLink: "https://www.facebook.com/photo?fbid=122163284732478231&set=pcb.122163284804478231",
     image: "/project_images/face_pto.jpeg",
-  }
+  },
 
   {
     id: 13,
