@@ -129,7 +129,7 @@ export const projectsData = [
 
   {
     id: 13,
-    name: "Speaker in IT expo in YCC",
+    name: "Speaker at YCC(IT Expo 2025)",
     description: "Public speaking with topic name 'AMR For Industrial Revolution' in YCC(Yangon)",
     date: "2025-09-12",
     demoLink: "https://www.youtube.com/watch?v=Qf9ZzsfRt44",
