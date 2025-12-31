@@ -101,6 +101,7 @@ export const projectsData = [
     description: "QT based Mission Controller App for ROS2",
     date: "2024-9-5",
     demoLink: "https://www.facebook.com/100004448652681/videos/a.2194835780674689/1074629197842443",
+    image: "/project_images/mission_controller.jpg",
   },
   
   {
@@ -109,6 +110,7 @@ export const projectsData = [
     description: "F1tenth GYM",
     date: "2024-02-14",
     demoLink: "https://github.com/gyiptgyipt/f1tenth",
+    image: "/project_images/f1tenth.jpg",
   },
   {
     id: 12,
