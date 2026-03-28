@@ -12,17 +12,19 @@ const AboutDetails = () => {
           }
         >
           <h2 className="  text-xl md:text-2xl text-left w-full capitalize">
-            Architect of Enchantment
+            About Htet Wai Yan
           </h2>
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
-            Robotics engineer with industry experience at ROM Dynamics
+            {/* Robotics engineer with industry experience at ROM Dynamics
             Robotics, where I work on building and improving robotic systems.
             Skilled in designing mechanical and control systems, programming
             with Python and C++, and working with tools like ROS2, Artificial
             Intelligence and embedded hardware. I enjoy solving real-world
             problems through robotics and want to deepen my knowledge
             through university studies. Interested in intelligent systems,
-            automation, and human-robot interaction.
+            automation, and human-robot interaction. */}
+            This page showcases the number of projects I participated in, reflecting my 4 years of experience related to Robotics. 
+            The icons displayed here represent the specific tools and technologies I utilized to bring these projects to life.
           </p>
         </ItemLayout>
 

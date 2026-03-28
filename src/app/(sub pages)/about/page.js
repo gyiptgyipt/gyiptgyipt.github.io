@@ -35,7 +35,8 @@ export default function Home() {
             Roboticist
           </h1>
           <p className="font-light text-foreground text-lg">
-            Meet the Yantarar Wizard behind this portfolio
+            {/* Meet the Yantarar Wizard behind this portfolio */}
+            Meet Htet Wai Yan
           </p>
         </div>
       </div>
