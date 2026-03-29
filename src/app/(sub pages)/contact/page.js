@@ -24,9 +24,10 @@ export default function Contact() {
             Contact Htet Wai Yan
           </h1>
           <p className="text-center font-light text-sm xs:text-base">
-            Enter the orbit of wonder and transmit your thoughts across the stars. 
+            {/* Enter the orbit of wonder and transmit your thoughts across the stars. 
             Whether you&apos;re initiating interstellar alliances, decoding galactic enigmas, or recounting voyages through the void, your messages are stardust etched in time. 
-            Use the console below to beam your dispatch into the cosmic network and listen for the echoes of the universe to answer.
+            Use the console below to beam your dispatch into the cosmic network and listen for the echoes of the universe to answer. */}
+            Meet Htet Wai Yan behind this portfolio.
           </p>
         </div>
         <Form />
