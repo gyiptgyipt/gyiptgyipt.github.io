@@ -70,8 +70,26 @@ export const projectsData = [
     demoLink: "https://github.com/gyiptgyipt/sonic_to_laser",
     image: "/project_images/ultrasonics_mapping.jpg",
   },
+
   {
     id: 7,
+    name: "Cloud Care (UAV web based fleet management system)",
+    description: "Asian AI Ready Youth Challenge 2026 project",
+    date: "2026-03-20",
+    demoLink: "https://github.com/gyiptgyipt/CloudCare",
+    image: "/project_images/cloud_care.png",
+  },
+
+  {
+    id: 8,
+    name: "ISS Detector Gnome Extension",
+    description: "Real time Gnome Extension for tracking International Space Station (ISS) using Open Notify API",
+    date: "2026-04-2",
+    demoLink: "https://github.com/gyiptgyipt/iss-detector-gnome-extension",
+    image: "/project_images/iss_detector.png",
+  },
+  {
+    id: 9,
     name: "FUN_VIZ ",
     description: "Web based visualization for ros2",
     date: "2024-10-20",
@@ -79,7 +97,7 @@ export const projectsData = [
     image: "/project_images/funviz.jpeg",
   },
   {
-    id: 8,
+    id: 10,
     name: "Scalar Punk",
     description: " Robot emotion animation using QT widget and ros2",
     date: "2025-04-12",
@@ -87,7 +105,7 @@ export const projectsData = [
     image: "/project_images/emotions.png",
   },
   {
-    id: 9,
+    id: 11,
     name: "Navigation2 Documentation",
     description: "ROS2 based Navigation2 documentation for robot navigation in Burmese Language",
     date: "2024-6-24",
@@ -96,7 +114,7 @@ export const projectsData = [
   },
   
   {
-    id: 10,
+    id: 12,
     name: "ROM_DYNAMICS Mission Controller APP",
     description: "QT based Mission Controller App for ROS2",
     date: "2024-9-5",
@@ -105,7 +123,7 @@ export const projectsData = [
   },
   
   {
-    id: 11,
+    id: 13,
     name: "F110(F1Tenth Tutorials)",
     description: "F1tenth GYM",
     date: "2024-02-14",
@@ -113,7 +131,7 @@ export const projectsData = [
     image: "/project_images/f1tenth.jpg",
   },
   {
-    id: 12,
+    id: 14,
     name: "Black Donut Simulation",
     description: "Custom robot simulation in gazebo",
     date: "2023-08-27",
@@ -121,7 +139,7 @@ export const projectsData = [
     image: "/project_images/black_donut.jpeg",
   },
   {
-    id: 13,
+    id: 15,
     name: "Speaker in online webinar",
     description: "Public speaking with topic name 'AI across Robotics' in UNI Learn AI Webinar",
     date: "2025-09-12",
@@ -130,7 +148,7 @@ export const projectsData = [
   },
 
   {
-    id: 13,
+    id: 16,
     name: "Speaker at YCC(IT Expo 2025)",
     description: "Public speaking with topic name 'AMR For Industrial Revolution' in YCC(Yangon)",
     date: "2025-09-12",
