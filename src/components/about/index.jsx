@@ -200,48 +200,90 @@ const AboutDetails = () => {
               className="h-10"
               loading="lazy"
             />
-            <img
-              src="https://img.shields.io/badge/OSRF-3B72B9?style=for-the-badge&logo=ros&logoColor=white"
-              alt="OSRF"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/Gazebo-0F75BC?style=for-the-badge&logo=gazebo&logoColor=white"
-              alt="Gazebo"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"
-              alt="NVIDIA"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/Isaac%20Sim-000000?style=for-the-badge&logo=nvidia&logoColor=white"
-              alt="Isaac Sim"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/Gymnasium-2362AA?style=for-the-badge&logo=python&logoColor=white"
-              alt="Gymnasium"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/MuJoCo-2F4F8B?style=for-the-badge&logo=mujoco&logoColor=white"
-              alt="MuJoCo"
-              className="h-10"
-              loading="lazy"
-            />
-            <img
-              src="https://img.shields.io/badge/RTOS-000000?style=for-the-badge&logo=rtos&logoColor=white"
-              alt="RTOS"
-              className="h-10"
-              loading="lazy"
-            />
+            <a
+              href="https://www.osrfoundation.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/OSRF-3B72B9?style=for-the-badge&logo=ros&logoColor=white"
+                alt="OSRF"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://gazebosim.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/Gazebo-0F75BC?style=for-the-badge&logo=gazebo&logoColor=white"
+                alt="Gazebo"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://platformio.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/PlatformIO-177A9E?style=for-the-badge&logo=platformio&logoColor=white"
+                alt="PlatformIO"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://micro.ros.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/micro_ros-1A73E8?style=for-the-badge&logo=robot-operating-system&logoColor=white"
+                alt="micro-ROS"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://www.espressif.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/Espressif-EE2C2C?style=for-the-badge&logo=espressif&logoColor=white"
+                alt="Espressif"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://www.freecadweb.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/FreeCAD-0094D6?style=for-the-badge&logo=freecad&logoColor=white"
+                alt="FreeCAD"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
+              href="https://www.freertos.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/FreeRTOS-000000?style=for-the-badge&logo=freertos&logoColor=white"
+                alt="FreeRTOS"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
             <img
               src="https://img.shields.io/badge/GNU%20Octave-77216F?style=for-the-badge&logo=gnu&logoColor=white"
               alt="GNU Octave"
