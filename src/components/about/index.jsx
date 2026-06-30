@@ -213,6 +213,18 @@ const AboutDetails = () => {
               />
             </a>
             <a
+              href="https://navigation.ros.org/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://img.shields.io/badge/Navigation2-12A5F4?style=for-the-badge&logo=ros&logoColor=white"
+                alt="navigation2"
+                className="h-10"
+                loading="lazy"
+              />
+            </a>
+            <a
               href="https://gazebosim.org/"
               target="_blank"
               rel="noopener noreferrer"
