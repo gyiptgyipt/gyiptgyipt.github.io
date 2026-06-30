@@ -35,14 +35,14 @@ export const projectsData = [
     demoLink: "https://www.facebook.com/reel/1379220050881589",
     image: "/project_images/multi_robot_app.jpeg",
   },
-  
+ 
   {
     id: 3,
-    name: "BEE BOT (ROM2109)",
-    description: "Differential Drive Robot for Educational Prototype",
-    date: "2023-06-15",
-    demoLink: "https://github.com/openroboticsasean/rom2109",
-    image: "/project_images/beebot.jpeg",
+    name: "DVB Interview about Robotics",
+    description: "Interview about Robotics R&D in Myanmar. I gave original link in video description",
+    date: "2026-6-3",
+    demoLink: "https://www.youtube.com/watch?v=TyUSF9zCBxQ",
+    image: "/project_images/DVB_interview.png",
   },
   {
     id: 4,
@@ -53,8 +53,27 @@ export const projectsData = [
     image: "/project_images/gps_waypoints.png",
   },
 
+
   {
     id: 5,
+    name: "DDSM115 Motor Driver",
+    description: "Mortor Driver wir ros2_control",
+    date: "2026-6-30",
+    demoLink: "https://github.com/gyiptgyipt/ddsm115_motor_driver_ros2",
+    image: "/project_images/ddsm115_motor_driver.jpg",
+  },
+  
+  {
+    id: 6,
+    name: "BEE BOT (ROM2109)",
+    description: "Differential Drive Robot for Educational Prototype",
+    date: "2023-06-15",
+    demoLink: "https://github.com/openroboticsasean/rom2109",
+    image: "/project_images/beebot.jpeg",
+  },
+  
+  {
+    id: 7,
     name: "PX4_SITL UAVs show",
     description: "On going project (uavs show)",
     date: "2025-7-15",
@@ -63,7 +82,7 @@ export const projectsData = [
   },
 
   {
-    id: 6,
+    id: 8,
     name: "UltraSonic Mapping",
     description: "HCSR04 with MPU6050 using micro_ros and SLAM_toolbox for mapping",
     date: "2023-09-10",
@@ -72,7 +91,7 @@ export const projectsData = [
   },
 
   {
-    id: 7,
+    id: 9,
     name: "Cloud Care (UAV web based fleet management system)",
     description: "Asian AI Ready Youth Challenge 2026 project",
     date: "2026-03-20",
@@ -81,7 +100,7 @@ export const projectsData = [
   },
 
   {
-    id: 8,
+    id: 10,
     name: "ISS Detector Gnome Extension",
     description: "Real time Gnome Extension for tracking International Space Station (ISS) using Open Notify API",
     date: "2026-04-2",
@@ -89,7 +108,8 @@ export const projectsData = [
     image: "/project_images/iss_detector.png",
   },
   {
-    id: 9,
+    id: 11
+    ,
     name: "FUN_VIZ ",
     description: "Web based visualization for ros2",
     date: "2024-10-20",
@@ -97,7 +117,7 @@ export const projectsData = [
     image: "/project_images/funviz.jpeg",
   },
   {
-    id: 10,
+    id: 12,
     name: "Scalar Punk",
     description: " Robot emotion animation using QT widget and ros2",
     date: "2025-04-12",
@@ -105,7 +125,7 @@ export const projectsData = [
     image: "/project_images/emotions.png",
   },
   {
-    id: 11,
+    id: 13,
     name: "Navigation2 Documentation",
     description: "ROS2 based Navigation2 documentation for robot navigation in Burmese Language",
     date: "2024-6-24",
@@ -114,7 +134,7 @@ export const projectsData = [
   },
   
   {
-    id: 12,
+    id: 14,
     name: "ROM_DYNAMICS Mission Controller APP",
     description: "QT based Mission Controller App for ROS2",
     date: "2024-9-5",
@@ -123,7 +143,7 @@ export const projectsData = [
   },
   
   {
-    id: 13,
+    id: 15,
     name: "F110(F1Tenth Tutorials)",
     description: "F1tenth GYM",
     date: "2024-02-14",
@@ -131,7 +151,7 @@ export const projectsData = [
     image: "/project_images/f1tenth.jpg",
   },
   {
-    id: 14,
+    id: 16,
     name: "Black Donut Simulation",
     description: "Custom robot simulation in gazebo",
     date: "2023-08-27",
@@ -139,7 +159,7 @@ export const projectsData = [
     image: "/project_images/black_donut.jpeg",
   },
   {
-    id: 15,
+    id: 17,
     name: "Speaker in online webinar",
     description: "Public speaking with topic name 'AI across Robotics' in UNI Learn AI Webinar",
     date: "2025-09-12",
@@ -148,7 +168,7 @@ export const projectsData = [
   },
 
   {
-    id: 16,
+    id: 18,
     name: "Speaker at YCC(IT Expo 2025)",
     description: "Public speaking with topic name 'AMR For Industrial Revolution' in YCC(Yangon)",
     date: "2025-09-12",
